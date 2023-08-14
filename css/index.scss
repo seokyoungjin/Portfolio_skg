@@ -211,6 +211,7 @@ main {
     }
 }
 
+// portfolio
 .portfolio-me {
     display: flex;
     flex-wrap: wrap;
@@ -223,17 +224,35 @@ main {
         background-color: #f8f8f8;
         border: 1px solid #ccc;
         margin-bottom: 3rem;
-        img{
+
+        img {
             max-width: 100%;
             display: block;
         }
-        strong{
+
+        strong {
             color: #ff6a6a;
             margin: 0.5rem 0;
             display: block;
         }
-        h3{
+
+        h3 {
             font-size: 1.75rem;
+        }
+    }
+}
+
+.contact {
+    .contact-1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .contact-inner {
+            width: 30%;
+            padding: 2rem;
+            background-color: #f8f8f8;
+            border: 1px solid #ccc;
         }
     }
 }

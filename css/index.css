@@ -269,4 +269,16 @@ main .mouse {
 }
 .portfolio-me .portfolio-inner h3 {
   font-size: 1.75rem;
+}
+
+.contact .contact-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact .contact-1 .contact-inner {
+  width: 30%;
+  padding: 2rem;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
 }/*# sourceMappingURL=index.css.map */
