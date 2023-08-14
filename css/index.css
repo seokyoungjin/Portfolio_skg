@@ -55,6 +55,29 @@ button {
   cursor: pointer;
 }
 
+section {
+  font-family: "Poppins", sans-serif;
+  padding: 5rem 0;
+}
+section .title {
+  margin-bottom: 3rem;
+}
+section .title h4 {
+  font-size: 1.35rem;
+  color: #ed4848;
+  position: relative;
+}
+section .title h2 {
+  font-size: 3.5rem;
+}
+section .title p {
+  font-size: 1.15rem;
+}
+
+section:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
 html,
 body {
   overflow: scroll;
@@ -161,4 +184,35 @@ main .mouse {
   100% {
     bottom: 1rem;
   }
+}
+
+.about .about-self {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about .about-self .left {
+  width: 50%;
+}
+.about .about-self .left img {
+  max-width: 100%;
+}
+.about .about-self .right {
+  width: 50%;
+  padding: 0 2rem;
+}
+.about .about-self .right h3 {
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+}
+.about .about-self .right h3 strong {
+  color: #ed4848;
+}
+.about .about-self .right p {
+  font-size: 1.15rem;
+  margin: 1rem 0;
+}
+.about .about-self .right .social a {
+  font-size: 2.5rem;
+  margin-right: 0.2rem;
 }/*# sourceMappingURL=index.css.map */

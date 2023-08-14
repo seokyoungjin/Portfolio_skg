@@ -124,3 +124,38 @@ main {
         }
       }
 }
+
+.about{
+    .about-self{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .left{
+            width: 50%;
+            img{
+                max-width: 100%;
+            }
+        }
+        .right{
+            width: 50%;
+            padding: 0 2rem;
+            h3{
+                font-size: 2.25rem;
+                margin-bottom: 1rem;
+                strong{
+                    color: #ed4848;
+                }
+            }
+            p{
+                font-size: 1.15rem;
+                margin: 1rem 0;
+            }
+            .social {
+                a {
+                    font-size: 2.5rem;
+                    margin-right: 0.2rem;
+                }
+            }
+        }
+    }
+}

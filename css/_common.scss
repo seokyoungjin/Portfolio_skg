@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 *{
+    
     -webkit-text-size-adjust: none;
     margin:0;
     padding:0;
@@ -15,6 +16,7 @@ h2,
 h3,
 h4,
 p {
+    
     margin: 0;
     overflow: hidden auto;
     word-break: keep-all;
@@ -55,3 +57,24 @@ button {
     border: 0;
     cursor: pointer;
 }
+section{
+    font-family:'Poppins', sans-serif;
+    padding: 5rem 0;
+    .title{
+        margin-bottom:3rem;
+        h4{
+            font-size: 1.35rem;
+            color: #ed4848;
+            position: relative;
+        }
+        h2{
+            font-size: 3.5rem;
+        }
+        p{
+            font-size: 1.15rem;
+        }
+    }
+}
+section:nth-child(2n){
+    background-color:#f8f8f8;
+  }
