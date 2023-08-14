@@ -231,4 +231,42 @@ main .mouse {
 .skill .skill-me .skill-inner .icon i {
   color: #ff6a6a;
   font-size: 2.5rem;
+}
+.skill .skill-me .skill-inner .content h3 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.skill .skill-me .skill-inner .content p {
+  font-size: 1.15rem;
+}
+.skill .skill-me .skill-inner .content small {
+  display: inline-block;
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+.portfolio-me {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-self: center;
+}
+.portfolio-me .portfolio-inner {
+  width: 30%;
+  padding: 1rem 1rem 1.5rem 1rem;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  margin-bottom: 3rem;
+}
+.portfolio-me .portfolio-inner img {
+  max-width: 100%;
+  display: block;
+}
+.portfolio-me .portfolio-inner strong {
+  color: #ff6a6a;
+  margin: 0.5rem 0;
+  display: block;
+}
+.portfolio-me .portfolio-inner h3 {
+  font-size: 1.75rem;
 }/*# sourceMappingURL=index.css.map */

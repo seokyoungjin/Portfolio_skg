@@ -112,44 +112,55 @@ main {
         animation: upDown 1s ease-in-out infinite;
         cursor: pointer;
     }
-    @keyframes upDown{
-        0%{
-          bottom:1rem;
+
+    @keyframes upDown {
+        0% {
+            bottom: 1rem;
         }
-        50%{
-          bottom:1.5rem;
+
+        50% {
+            bottom: 1.5rem;
         }
-        100%{
-          bottom:1rem;
+
+        100% {
+            bottom: 1rem;
         }
-      }
+    }
 }
 
-.about{
-    .about-self{
+// about
+.about {
+    .about-self {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        .left{
+
+        .left {
             width: 50%;
-            img{
+
+            img {
                 max-width: 100%;
             }
         }
-        .right{
+
+        .right {
             width: 50%;
             padding: 0 2rem;
-            h3{
+
+            h3 {
                 font-size: 2rem;
                 margin-bottom: 1rem;
-                strong{
+
+                strong {
                     color: #ed4848;
                 }
             }
-            p{
+
+            p {
                 font-size: 1.15rem;
                 margin: 1rem 0;
             }
+
             .social {
                 a {
                     font-size: 2.5rem;
@@ -159,22 +170,70 @@ main {
         }
     }
 }
-.skill{
+
+// skill
+.skill {
     .skill-me {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        .skill-inner{
+
+        .skill-inner {
             background-color: #fff;
             width: 30%;
             padding: 2rem;
             cursor: pointer;
+
             .icon {
                 i {
                     color: #ff6a6a;
                     font-size: 2.5rem;
                 }
             }
+
+            .content {
+                h3 {
+                    font-size: 2rem;
+                    margin: 1rem 0;
+                }
+
+                p {
+                    font-size: 1.15rem;
+                }
+
+                small {
+                    display: inline-block;
+                    font-size: 1rem;
+                    margin: 1rem 0;
+                }
+            }
+        }
+    }
+}
+
+.portfolio-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: center;
+
+    .portfolio-inner {
+        width: 30%;
+        padding: 1rem 1rem 1.5rem 1rem;
+        background-color: #f8f8f8;
+        border: 1px solid #ccc;
+        margin-bottom: 3rem;
+        img{
+            max-width: 100%;
+            display: block;
+        }
+        strong{
+            color: #ff6a6a;
+            margin: 0.5rem 0;
+            display: block;
+        }
+        h3{
+            font-size: 1.75rem;
         }
     }
 }
