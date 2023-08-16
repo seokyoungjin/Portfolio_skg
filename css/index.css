@@ -281,4 +281,18 @@ main .mouse {
   padding: 2rem;
   background-color: #f8f8f8;
   border: 1px solid #ccc;
+}
+.contact .contact-1 .contact-inner h3 {
+  font-size: 1.5rem;
+  color: #ed4848;
+}
+.contact .contact-1 .contact-inner h4 {
+  font-size: 1.15rem;
+}
+.contact .contact-1 .contact-inner p {
+  font-size: 1.05rem;
+}
+.contact .contact-1 .contact-inner img {
+  max-width: 100%;
+  margin: 2rem 0;
 }/*# sourceMappingURL=index.css.map */
