@@ -269,4 +269,22 @@ main {
             }
         }
     }
+    .footer{
+        padding: 5rem 0 ;
+        text-align: center;
+        strong{
+            padding: 2rem 0;
+            display: block;
+        }
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+    }
+    span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }

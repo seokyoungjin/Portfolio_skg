@@ -295,4 +295,22 @@ main .mouse {
 .contact .contact-1 .contact-inner img {
   max-width: 100%;
   margin: 2rem 0;
+}
+.contact .footer {
+  padding: 5rem 0;
+  text-align: center;
+}
+.contact .footer strong {
+  padding: 2rem 0;
+  display: block;
+}
+.contact .footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contact span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=index.css.map */
