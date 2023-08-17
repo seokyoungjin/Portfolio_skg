@@ -10,19 +10,16 @@
   html {
     font-size: 14px;
   }
+  main h4 {
+    font-size: 1.75rem;
+  }
   section .container {
     width: 768px;
   }
   section .title {
     text-align: center;
   }
-  .skill .skill-me {
-    justify-content: space-evenly;
-  }
-  .portfolio-me {
-    justify-content: space-evenly;
-  }
-  .contact .contact-1 {
+  .skill .skill-me, .portfolio-me, .contact .contact-1 {
     justify-content: space-evenly;
   }
   .contact .contact-1 {
@@ -38,5 +35,37 @@
   }
   .contact .contact-1 .contact-inner:nth-child(2) {
     margin: 3rem auto;
+  }
+}
+@media (max-width: 768px) {
+  section .container {
+    width: 576px;
+  }
+  .about .about-self {
+    display: block;
+  }
+  .about .about-self .left {
+    margin: 0 auto;
+  }
+  .about .about-self .right {
+    margin-top: 2rem;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .skill .skill-me {
+    display: block;
+  }
+  .skill .skill-me .skill-inner {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .skill .skill-me .skill-inner:nth-child(2) {
+    margin: 2rem auto;
+  }
+}
+@media (max-width: 576px) {
+  section .container {
+    width: 400px;
   }
 }/*# sourceMappingURL=media.css.map */
