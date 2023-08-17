@@ -3,7 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 *{
-    
     -webkit-text-size-adjust: none;
     margin:0;
     padding:0;
@@ -19,7 +18,7 @@ p {
     
     margin: 0;
     overflow: hidden auto;
-    word-break: keep-all;
+    
 }
 
 ul,
@@ -64,7 +63,7 @@ section{
         margin-bottom:3rem;
         h4{
             font-size: 1.35rem;
-            color: #ed4848;
+            color: #1074D9;
             position: relative;
         }
         h2{

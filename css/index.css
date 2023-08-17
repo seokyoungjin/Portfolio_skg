@@ -16,7 +16,6 @@ h4,
 p {
   margin: 0;
   overflow: hidden auto;
-  word-break: keep-all;
 }
 
 ul,
@@ -64,7 +63,7 @@ section .title {
 }
 section .title h4 {
   font-size: 1.35rem;
-  color: #ed4848;
+  color: #1074D9;
   position: relative;
 }
 section .title h2 {
@@ -206,17 +205,14 @@ main .mouse {
   margin-bottom: 1rem;
 }
 .about .about-self .right h3 strong {
-  color: #ed4848;
+  background-color: #1074D9;
+  color: #fff;
 }
 .about .about-self .right p {
+  word-break: keep-all;
   font-size: 1.15rem;
   margin: 1rem 0;
 }
-.about .about-self .right .social a {
-  font-size: 2.5rem;
-  margin-right: 0.2rem;
-}
-
 .skill .skill-me {
   display: flex;
   justify-content: space-between;
@@ -229,7 +225,7 @@ main .mouse {
   cursor: pointer;
 }
 .skill .skill-me .skill-inner .icon i {
-  color: #ff6a6a;
+  color: #1074D9;
   font-size: 2.5rem;
 }
 .skill .skill-me .skill-inner .content h3 {
@@ -263,7 +259,7 @@ main .mouse {
   display: block;
 }
 .portfolio-me .portfolio-inner strong {
-  color: #ff6a6a;
+  color: #1074D9;
   margin: 0.5rem 0;
   display: block;
 }
@@ -284,7 +280,7 @@ main .mouse {
 }
 .contact .contact-1 .contact-inner h3 {
   font-size: 1.5rem;
-  color: #ed4848;
+  color: #1074D9;
 }
 .contact .contact-1 .contact-inner h4 {
   font-size: 1.15rem;

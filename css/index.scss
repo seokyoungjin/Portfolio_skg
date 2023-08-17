@@ -152,20 +152,18 @@ main {
                 margin-bottom: 1rem;
 
                 strong {
-                    color: #ed4848;
+                    background-color: #1074D9;
+                    color: #fff;
                 }
             }
 
             p {
+                word-break: keep-all;
                 font-size: 1.15rem;
                 margin: 1rem 0;
             }
 
             .social {
-                a {
-                    font-size: 2.5rem;
-                    margin-right: 0.2rem;
-                }
             }
         }
     }
@@ -186,7 +184,7 @@ main {
 
             .icon {
                 i {
-                    color: #ff6a6a;
+                    color: #1074D9;
                     font-size: 2.5rem;
                 }
             }
@@ -231,7 +229,7 @@ main {
         }
 
         strong {
-            color: #ff6a6a;
+            color: #1074D9;
             margin: 0.5rem 0;
             display: block;
         }
@@ -255,7 +253,7 @@ main {
             border: 1px solid #ccc;
             h3{
                 font-size: 1.5rem;
-                color: #ed4848;
+                color: #1074D9;
             }
             h4{
                 font-size: 1.15rem;
