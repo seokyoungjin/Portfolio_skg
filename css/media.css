@@ -14,9 +14,29 @@
     width: 768px;
   }
   section .title {
-    margin: 0 2rem 2rem;
+    text-align: center;
   }
   .skill .skill-me {
     justify-content: space-evenly;
+  }
+  .portfolio-me {
+    justify-content: space-evenly;
+  }
+  .contact .contact-1 {
+    justify-content: space-evenly;
+  }
+  .contact .contact-1 {
+    display: block;
+  }
+  .contact .contact-1 .contact-inner {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    padding: 2rem;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+  }
+  .contact .contact-1 .contact-inner:nth-child(2) {
+    margin: 3rem auto;
   }
 }/*# sourceMappingURL=media.css.map */

@@ -1,26 +1,57 @@
-@media screen and (max-width: 1140px){
+@media screen and (max-width: 1140px) {
   main .container {
     width: 992px;
   }
-  section .container{
-    width:900px;
+
+  section .container {
+    width: 900px;
   }
 }
 
-@media (max-width: 992px){
-  html{
+@media (max-width: 992px) {
+  html {
     font-size: 14px;
   }
-  section .container{
-    width:768px;
+
+  section .container {
+    width: 768px;
   }
+
   section .title {
-    margin: 0 2rem 2rem;
+    text-align: center;
   }
+
   .skill .skill-me {
     justify-content: space-evenly;
   }
+
+  .portfolio-me {
+    justify-content: space-evenly;
+  }
+
+  .contact .contact-1 {
+    justify-content: space-evenly;
+  }
+
+  .contact .contact-1 {
+    display: block;
+
+    .contact-inner {
+      text-align: center;
+      margin: 0 auto;
+      width: 70%;
+      padding: 2rem;
+      background-color: #f8f8f8;
+      border: 1px solid #ccc;
+      &:nth-child(2){
+        margin: 3rem auto;
+      }
+    }
+  }
 }
-@media (max-width: 768px){}
-@media (max-width: 576px){}
-@media (max-width: 400px){}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 400px) {}
