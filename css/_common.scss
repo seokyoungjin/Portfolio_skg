@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 *{
+    word-break: keep-all;
     -webkit-text-size-adjust: none;
     margin:0;
     padding:0;
@@ -77,3 +78,7 @@ section{
 section:nth-child(2n){
     background-color:#f8f8f8;
   }
+  ::selection{
+    background-color:#f89820 ;
+    color: #fff;
+}

@@ -1,0 +1,26 @@
+@media screen and (max-width: 1140px){
+  main .container {
+    width: 992px;
+  }
+  section .container{
+    width:900px;
+  }
+}
+
+@media (max-width: 992px){
+  html{
+    font-size: 14px;
+  }
+  section .container{
+    width:768px;
+  }
+  section .title {
+    margin: 0 2rem 2rem;
+  }
+  .skill .skill-me {
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 768px){}
+@media (max-width: 576px){}
+@media (max-width: 400px){}
