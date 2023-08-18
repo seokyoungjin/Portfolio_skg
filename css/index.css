@@ -217,14 +217,18 @@ main .mouse {
   margin-bottom: 1rem;
 }
 .about .about-self .right h3 strong {
-  background-color: #1074D9;
-  color: #fff;
+  background: linear-gradient(to top, rgba(93, 59, 186, 0.2509803922) 50%, transparent 60%);
+  color: #000000;
 }
 .about .about-self .right p {
   word-break: keep-all;
   font-size: 1.15rem;
   margin: 1rem 0;
 }
+.about .about-self .right .social span {
+  background: linear-gradient(to top, rgba(93, 59, 186, 0.2509803922) 50%, transparent 60%);
+}
+
 .skill .skill-me {
   display: flex;
   justify-content: space-between;

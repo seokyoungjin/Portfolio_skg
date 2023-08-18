@@ -152,8 +152,8 @@ main {
                 margin-bottom: 1rem;
 
                 strong {
-                    background-color: #1074D9;
-                    color: #fff;
+                    background: linear-gradient(to top, #5d3bba40 50%, transparent 60%);
+                    color: #000000;
                 }
             }
 
@@ -164,6 +164,9 @@ main {
             }
 
             .social {
+                span{
+                    background: linear-gradient(to top, #5d3bba40 50%, transparent 60%);
+                }
             }
         }
     }
