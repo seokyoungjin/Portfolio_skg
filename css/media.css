@@ -19,7 +19,9 @@
   section .title {
     text-align: center;
   }
-  .skill .skill-me, .portfolio-me, .contact .contact-1 {
+  .skill .skill-me,
+  .portfolio-me,
+  .contact .contact-1 {
     justify-content: space-evenly;
   }
   .contact .contact-1 {
@@ -35,6 +37,20 @@
   }
   .contact .contact-1 .contact-inner:nth-child(2) {
     margin: 3rem auto;
+  }
+  .portfolio-me {
+    display: block;
+  }
+  .portfolio-me .portfolio-inner {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+  }
+  .portfolio-me .portfolio-inner:nth-child(2) {
+    margin: 2rem auto;
+  }
+  .portfolio-me .portfolio-inner img {
+    margin: 0 auto;
   }
 }
 @media (max-width: 768px) {
