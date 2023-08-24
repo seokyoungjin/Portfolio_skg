@@ -72,7 +72,16 @@ main {
         margin: 2rem 0;
         letter-spacing: 3px;
         font-family: 'Varela Round', sans-serif;
+
         /* 웹 폰트 추가 */
+        span::after {
+            content: "";
+            height: 40px;
+            width: 3px;
+            background-color: #fff;
+            display: inline-block;
+            animation: blink .7s ease-in-out infinite;
+        }
     }
 
     p {
@@ -164,7 +173,7 @@ main {
             }
 
             .social {
-                span{
+                span {
                     background: linear-gradient(to top, #5d3bba40 50%, transparent 60%);
                 }
             }
@@ -254,42 +263,61 @@ main {
             padding: 2rem;
             background-color: #f8f8f8;
             border: 1px solid #ccc;
-            h3{
+
+            h3 {
                 font-size: 1.5rem;
                 color: #1074D9;
             }
-            h4{
+
+            h4 {
                 font-size: 1.15rem;
                 padding-top: 1rem;
             }
-            p{
+
+            p {
                 font-size: 1.05rem;
             }
-            img{
+
+            img {
                 max-width: 100%;
                 margin: 2rem 0;
             }
         }
     }
-    .footer{
-        padding: 5rem 0 ;
+
+    .footer {
+        padding: 5rem 0;
         text-align: center;
-        strong{
+
+        strong {
             padding: 2rem 0;
             display: block;
         }
-        ul{
+
+        ul {
             display: flex;
             align-items: center;
             justify-content: space-evenly;
         }
     }
-    p{
+
+    p {
         text-align: center;
-        span{
+
+        span {
             display: flex;
             align-items: center;
             justify-content: center;
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
         }
     }
 }

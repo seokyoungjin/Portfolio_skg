@@ -150,6 +150,14 @@ main h2 {
   font-family: "Varela Round", sans-serif;
   /* 웹 폰트 추가 */
 }
+main h2 span::after {
+  content: "";
+  height: 40px;
+  width: 3px;
+  background-color: #fff;
+  display: inline-block;
+  animation: blink 0.7s ease-in-out infinite;
+}
 main p {
   max-width: 600px;
   margin: 0 auto;
@@ -328,4 +336,12 @@ main .mouse {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }/*# sourceMappingURL=index.css.map */
