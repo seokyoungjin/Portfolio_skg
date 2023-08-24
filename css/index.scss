@@ -89,24 +89,30 @@ main {
         margin: 0 auto;
         font-size: 1.25rem;
     }
-    .btn_main{
+
+    .btn_main {
         display: flex;
-        justify-content: space-between;
+        max-width: 500px;
+        margin: 0 auto;
+        justify-content: space-around;
+        margin-top: 2rem;
         .go_to_Portfolio {
+
             border: 3px solid white;
             border-radius: 20px;
             padding: 1rem 2rem;
             color: white;
             font-weight: bold;
             cursor: pointer;
-            // margin: 0 2rem 0rem 0;
+
         }
-    
+
+        .btn__main {}
+
         .go_to_Contact {
             border: 3px solid white;
             border-radius: 20px;
             padding: 1rem 2rem;
-            margin-top: 2rem;
             color: white;
             font-weight: bold;
             cursor: pointer;

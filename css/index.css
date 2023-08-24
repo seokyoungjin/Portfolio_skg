@@ -165,7 +165,10 @@ main p {
 }
 main .btn_main {
   display: flex;
-  justify-content: space-between;
+  max-width: 500px;
+  margin: 0 auto;
+  justify-content: space-around;
+  margin-top: 2rem;
 }
 main .btn_main .go_to_Portfolio {
   border: 3px solid white;
@@ -179,7 +182,6 @@ main .btn_main .go_to_Contact {
   border: 3px solid white;
   border-radius: 20px;
   padding: 1rem 2rem;
-  margin-top: 2rem;
   color: white;
   font-weight: bold;
   cursor: pointer;
