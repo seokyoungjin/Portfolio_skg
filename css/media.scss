@@ -57,7 +57,7 @@
     .portfolio-inner {
       text-align: center;
       margin: 0 auto;
-      width: 70%;
+      width: 60%;
       &:nth-child(2){
         margin: 2rem auto;
       }
@@ -73,7 +73,14 @@
   html {
     font-size: 14px;
   }
-
+  main {
+    h4 {
+      font-size: 1.6rem;
+    }
+    h2{
+      font-size: 2.6rem;
+    }
+  }
   section .container {
     width: 576px;
   }
