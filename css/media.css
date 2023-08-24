@@ -44,7 +44,7 @@
   .portfolio-me .portfolio-inner {
     text-align: center;
     margin: 0 auto;
-    width: 60%;
+    width: 70%;
   }
   .portfolio-me .portfolio-inner:nth-child(2) {
     margin: 2rem auto;
@@ -107,5 +107,8 @@
   }
   .about .about-self .right p {
     font-size: 1rem;
+  }
+  .portfolio-me {
+    width: 80%;
   }
 }/*# sourceMappingURL=media.css.map */
