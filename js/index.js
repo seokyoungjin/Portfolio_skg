@@ -63,3 +63,4 @@ for(let i = 0; i < scollMoveEl.length; i++){
     animationMove(target);
   });
 }
+
