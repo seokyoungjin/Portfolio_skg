@@ -41,8 +41,7 @@ function scrollCheck(){
     headerEl.classList.remove("active");
   }
 }
-
-
+// 버튼을 누르면 해당 스크롤위치로 이동하며 지금 있는 위치의 버튼은 색이 변한다 
 
 /* move.js */
 /* 애니메이션 스크롤 이동 */
