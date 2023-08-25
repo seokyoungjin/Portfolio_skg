@@ -261,9 +261,12 @@ main .mouse {
   margin: 1rem 0;
 }
 .skill .skill-me .skill-inner .content p {
+  line-height: 1.8;
   font-size: 1.15rem;
 }
 .skill .skill-me .skill-inner .content small {
+  color: #606167;
+  line-height: 1.8;
   display: inline-block;
   font-size: 1rem;
   margin: 1rem 0;
@@ -315,6 +318,8 @@ main .mouse {
   padding-top: 1rem;
 }
 .contact .contact-1 .contact-inner p {
+  color: #606167;
+  line-height: 1.8;
   font-size: 1.05rem;
 }
 .contact .contact-1 .contact-inner img {
