@@ -264,11 +264,11 @@ main {
         background-color: #f8f8f8;
         border: 1px solid #ccc;
         margin-bottom: 3rem;
-        filter: saturate(1);
+        filter:brightness(0.5);
         &:hover {
             transform: scale(1.17);
             transition: .5s;
-            filter: saturate(0);
+            filter: saturate(1);
         }
    
                 img {
