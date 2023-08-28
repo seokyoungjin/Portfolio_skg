@@ -259,7 +259,12 @@ main {
         background-color: #f8f8f8;
         border: 1px solid #ccc;
         margin-bottom: 3rem;
-
+        &:hover {
+            transform: scale(1.17);
+                transition: .5s;
+                filter: saturate(1);
+        }    
+      
         img {
             max-width: 100%;
             display: block;
@@ -275,6 +280,7 @@ main {
             font-size: 1.75rem;
         }
     }
+
 }
 
 .contact {

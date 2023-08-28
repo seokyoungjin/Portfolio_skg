@@ -297,6 +297,11 @@ main .mouse {
   border: 1px solid #ccc;
   margin-bottom: 3rem;
 }
+.portfolio-me .portfolio-inner:hover {
+  transform: scale(1.17);
+  transition: 0.5s;
+  filter: saturate(1);
+}
 .portfolio-me .portfolio-inner img {
   max-width: 100%;
   display: block;
