@@ -264,33 +264,33 @@ main {
         background-color: #f8f8f8;
         border: 1px solid #ccc;
         margin-bottom: 3rem;
-        filter:brightness(0.5);
+        filter: brightness(0.5);
+
         &:hover {
             transform: scale(1.17);
             transition: .5s;
             filter: saturate(1);
         }
-   
-                img {
-                    max-width: 100%;
-                    display: block;
-                    transform: 0.3s;
-                }
-            }
 
-        strong {
-            color: #1074D9;
-            margin: 0.5rem 0;
+        img {
+            max-width: 100%;
             display: block;
-        }
-
-        h3 {
-            font-size: 1.75rem;
+            transform: 0.3s;
         }
     }
 
+    strong {
+        color: #1074D9;
+        margin: 0.5rem 0;
+        display: block;
+    }
 
+    h3 {
+        font-size: 1.75rem;
+    }
+}
 
+// contact
 .contact {
     .contact-1 {
         display: flex;
