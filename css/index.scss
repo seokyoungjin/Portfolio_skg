@@ -330,6 +330,17 @@ main {
             display: flex;
             align-items: center;
             justify-content: space-evenly;
+            li{
+                p{
+                    margin-bottom: 4%;
+                    font-size: 1.3rem;
+                    font-weight: 500;
+                    color: #000000;
+                }
+                span{
+                    color: #797979;
+                }
+            }
         }
     }
 

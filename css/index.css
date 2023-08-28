@@ -357,6 +357,15 @@ main .mouse {
   align-items: center;
   justify-content: space-evenly;
 }
+.contact .footer ul li p {
+  margin-bottom: 4%;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #000000;
+}
+.contact .footer ul li span {
+  color: #797979;
+}
 .contact p {
   text-align: center;
 }
