@@ -63,4 +63,8 @@ for(let i = 0; i < scollMoveEl.length; i++){
     animationMove(target);
   });
 }
-
+const marker = document.querySelector(".marker")
+function indicator(e) {
+  marker.style.left = e.offsetLeft+"px";
+  marker.style.width = e.offsetWidth+"px";
+}

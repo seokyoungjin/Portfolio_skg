@@ -124,6 +124,7 @@ header .container {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  position: relative;
 }
 header .container h1 button {
   font-size: 2rem;
@@ -139,6 +140,16 @@ header .container nav ul li {
 header .container nav ul li button {
   font-size: 1.2rem;
   color: #fff;
+}
+header .container nav ul .marker {
+  content: "";
+  position: absolute;
+  bottom: 1.2rem;
+  left: 50%;
+  width: 0%;
+  height: 3px;
+  background-color: #fff;
+  transition: 0.5s;
 }
 
 main {
