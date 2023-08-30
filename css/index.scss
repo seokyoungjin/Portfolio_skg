@@ -42,6 +42,7 @@ header {
         align-items: center;
         width: 100%;
         position: relative;
+
         h1 {
             button {
                 font-size: 2rem;
@@ -63,7 +64,8 @@ header {
 
                     }
                 }
-                .marker  {
+
+                .marker {
                     content: "";
                     position: absolute;
                     bottom: 1.2rem;
@@ -264,23 +266,38 @@ main {
 
 // portfolio
 .portfolio-me {
+    width: 100%;
+    height: 100%;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-self: center;
-
     .portfolio-inner {
+        position: relative;
         width: 30%;
         padding: 1rem 1rem 1.5rem 1rem;
         background-color: #f8f8f8;
         border: 1px solid #ccc;
         margin-bottom: 3rem;
-        filter: brightness(0.5);
+        // filter: brightness(1);
+       
+
+        .work_img_caption {
+            background-color: rgba(2, 37, 59, 0.95);
+            width: 100%;
+            color: white;
+            transition: 0.3s;
+            vertical-align: middle;
+            position: absolute;
+        padding: 1rem 1rem 1.5rem 1rem;
+
+        }
 
         &:hover {
             transform: scale(1.17);
             transition: .5s;
-            filter: saturate(1);
+            filter: saturate(0.5);
         }
 
         img {
